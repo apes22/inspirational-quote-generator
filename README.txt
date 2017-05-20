@@ -1,0 +1,1 @@
+An Intermediate Front End Development Project for FreeCodeCamp. Generates inspirational quotes using Forismatic API. The user can share the quotes on Facebook and Twitter. (http://forismatic.com/en/).
