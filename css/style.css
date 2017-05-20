@@ -5,7 +5,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
- background-image: url('http://cdn.magdeleine.co/wp-content/uploads/2014/11/wdXqHcTwSTmLuKOGz92L_Landscape-1400x957.jpg'); 
+  background-image: url('https://cdn.magdeleine.co/wp-content/uploads/2014/11/wdXqHcTwSTmLuKOGz92L_Landscape-1400x957.jpg'); 
   font-family: 'Gentium Basic', serif;
   z-index: -2;   
 }
@@ -74,9 +74,4 @@ blockquote {
 
 .site-footer a{
 color: white;
-}
-
-#refresh{
-  margin-top: 10px;
-  Margin-left: -5px;
 }
