@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Gentium+Basic:400,700);
+body {
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+ background-image: url('http://cdn.magdeleine.co/wp-content/uploads/2014/11/wdXqHcTwSTmLuKOGz92L_Landscape-1400x957.jpg'); 
+  font-family: 'Gentium Basic', serif;
+  z-index: -2;   
+}
+
+#container-quote {
+  border-radius: 20px;
+  background-color: white;
+  /* auto margin will center an element within its container */
+  margin: auto;
+  margin-top: 10%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/*removes border line from markdown blockquote*/
+blockquote {
+  font-size: 25px;
+  border-left: 0px;
+  padding: 0px;
+  margin-left: 0px;
+}
+
+#quote_author {
+  font-size: 20px;
+  color: black;
+}
+
+.fa-twitter, .fa-facebook {
+  font-size: 20px;
+   color: #337ab7;
+}
+
+.fa-twitter:hover, .fa-facebook:hover{
+  color: #007299; 
+}
+
+#getNewQuote:hover {
+ background-color: #007299;  
+}
+
+#button-share-tweet, #button-share-facebook{
+ color: #337ab7;
+}
+
+#button-share-tweet:visited, #button-share-tweet:active, #button-share-facebook:visited, #button-share-facebook:active{
+    color: #337ab7;
+}
+
+.fa-quote-left{
+  padding-right: 10px;
+}
+.fa-quote-right{
+  padding-left: 10px;
+}
+
+.site-footer {
+  color:white;
+  font-size: 25px;
+  text-align: left;
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  padding: 10px; 
+} 
+
+.site-footer a{
+color: white;
+}
+
+#refresh{
+  margin-top: 10px;
+  Margin-left: -5px;
+}
